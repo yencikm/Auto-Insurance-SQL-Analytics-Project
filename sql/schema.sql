@@ -1,3 +1,7 @@
+-- Create your database and set to use it
+CREATE DATABASE auto_insurance
+USE auto_insurance
+--Structure of the Table
 CREATE TABLE insurance_claimns (
   month_as_customer INT,
   age INT,
@@ -9,7 +13,7 @@ CREATE TABLE insurance_claimns (
   insured_education_level VARCHAR(50),
   insured_occupation VARCHAR(50),
   insured_hobbies VARCHAR(50),
-  insured_relationship VARCHAR(50)
+  insured_relationship VARCHAR(50),
   incident_date DATE,
   incident_type VARCHAR(50),
   collision_type VARCHAR(50),
