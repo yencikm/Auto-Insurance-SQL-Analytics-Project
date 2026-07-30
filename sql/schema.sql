@@ -2,7 +2,7 @@
 CREATE DATABASE auto_insurance
 USE auto_insurance
 --Structure of the Table
-CREATE TABLE insurance_claimns (
+CREATE TABLE insurance_claims (
   month_as_customer INT,
   age INT,
   policy_number VARCHAR(50),
