@@ -83,4 +83,7 @@ FROM insurance_claims
 GROUP BY insured_relationship
 ORDER BY claim_frequency DESC;
 -- Query 5B: Severity by relationship status
-
+SELECT insured_relationship, AVG(total_claim_amount) AS avg_claim
+FROM insurance_claims
+GROUP BY insured_relationship
+ORDER BY avg_claim DESC;
